@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrar</title>
+    <link rel="stylesheet" href="entrar.css">
+    <style>
+      
+    </style>
+</head>
+<body>
+    
+    <div id="container">
+        <h1>Entrar</h1>
+        <form action="homeEntrar.php" method="POST">
+            <!-- email -->
+            <label for="email">Email:</label>
+            <input type="email" placeholder="Coloque seu e-mail" autofocus required id="email" name="emailEntrar">
+            <br>
+            <!-- senha -->
+            <label for="password">Senha:</label>
+            <input type="password" placeholder="Coloque sua senha" required id="password" name="senhaEntrar">
+            <!-- Esqueci minha senha -->
+            <span>Esqueceu a senha? 
+                <a href="esquecisenha.html" id="cliqueAqui" title="Clique aqui para trocar de senha">
+                    Clique Aqui
+                </a>
+            </span>
+            <!-- botão -->
+            <button type="submit" title="Clique aqui para entrar">Entrar</button> 
+            <!-- Icone de voltar -->
+             <a href="404.html" title="Voltar">
+                <ion-icon name="return-up-back-outline"></ion-icon>
+                <span id="voltar">Voltar</span>
+            </a> 
+        </div>
+     </form> 
+
+     <!-- Script dos icon -->
+     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
