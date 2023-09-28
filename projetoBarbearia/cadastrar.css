@@ -1,0 +1,288 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    transition: .5s;
+    font-family: sans-serif,Arial, Helvetica, sans-serif;
+}
+
+
+body {
+    background: linear-gradient(
+        to top,
+        #ccc,
+        #060c21 100%
+    );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+/* Container */
+
+#container {
+    width: 500px;
+    height: 550px;
+    background-color: #eee;
+    border-radius: 30px;
+}
+
+
+/* Logo */
+
+img {
+
+    width: 100px;
+    margin-top: -162px;
+    margin-left: 25rem;
+    position: absolute;
+    border-radius: 20px;
+}
+
+/* h1/Cadastrar */
+
+h1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 15vh;
+}
+
+
+/* Input */
+
+input {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 10rem;
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: solid 1px #000;
+    font-size: 18px;
+}
+
+
+::placeholder {
+    color: #000;
+    font-size: 18px;
+}
+
+
+/* Label */
+
+label {
+    margin-top: 200px;
+    margin-left: 10rem;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+/* Botão de entrar/ a */
+
+button {
+    width: 10rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    margin-left: 11rem;
+    padding: 15px;
+    border-radius: 30px;
+    font-size: 17px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+button:hover {
+    border: solid 1px #181818;
+    box-shadow: 0 0 20px #181818;
+    color: #000;
+}
+
+
+a {
+    text-decoration: none;
+    color: #27282c;
+    font-weight: bold;
+}
+
+
+/* icone de voltar/ span de voltar */
+
+ion-icon {
+    position: relative;
+    color: #181818;
+    margin-top: -34px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+
+span#voltar {
+    position: absolute;
+    margin-top: -1.3rem;
+    margin-left: 3rem;
+    font-family: monospace;
+    font-size: 16px;
+}
+
+
+#voltar:hover {
+    text-decoration: underline;
+}
+
+
+/* Responsivo */
+
+@media (max-width:505px) {
+    #container {
+        width: 450px;
+    }
+
+
+    /* Input */
+
+    input {
+        margin-left: 9rem;
+    }
+
+
+    /* Label */
+
+    label {
+        margin-left: 9rem;
+    }
+
+
+    /* Button */
+
+    button {
+        margin-left: 9.5rem;
+    }
+}
+
+
+/* 454px */
+
+@media (max-width:454px) {
+    #container {
+        width: 400px;
+        height: 570px;
+    }
+
+
+    /* Input */
+
+    input {
+        margin-left: 7rem;
+    }
+
+
+    /* Label */
+
+    label {
+        margin-left: 7rem;
+    }
+
+
+    /* Button */
+
+    button {
+        margin-left: 7.8rem;
+    }
+
+
+    /* Icone de voltar/span de voltar */
+
+    ion-icon {
+        margin-top: 1rem;
+    }
+}
+
+
+/* 410px */
+
+@media (max-width:410px) {
+    #container {
+        width: 350px;
+        height: 570px;
+    }
+
+
+    /* Input */
+
+    input {
+        margin-left: 5rem;
+    }
+
+
+    /* Label */
+
+    label {
+        margin-left: 5rem;
+    }
+
+
+    /* Button */
+
+    button {
+        margin-left: 6rem;
+    }
+
+
+    /* Icone de voltar/span de voltar */
+
+    ion-icon {
+        margin-top: 1rem;
+    }
+}
+
+
+/* 358px */
+
+@media (max-width:358px) {
+    #container {
+        width: 300px;
+        height: 570px;
+    }
+
+
+    /* Input */
+
+    input {
+        margin-left: 3rem;
+    }
+
+
+    /* Label */
+
+    label {
+        margin-left: 3rem;
+    }
+
+
+    /* Button */
+
+    button {
+        margin-left: 4rem;
+        margin-top: 60px;
+    }
+
+
+    /* Icone de voltar/span de voltar */
+
+    ion-icon {
+        margin-top: 2rem;
+    }
+}

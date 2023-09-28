@@ -1,0 +1,230 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    transition: .5s;
+    font-family: sans-serif,Arial, Helvetica, sans-serif;
+}
+
+
+body {
+    background: linear-gradient(
+        to top,
+        #ccc,
+        #060c21 100%
+        
+    );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+#container {
+    width: 500px;
+    height: 500px;
+    background-color: #eee;
+    border-radius: 30px;
+}
+
+
+/* h1/Selecione uma das opções */
+
+h1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 15vh
+}
+
+
+/* Botões/a */
+
+button {
+    width: 20rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 80px;
+    padding: 15px;
+    border-radius: 30px;
+    font-size: 17px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+a {
+    text-decoration: none;
+    color: #27282c;
+    font-weight: bold;
+}
+
+
+button:hover {
+    border: solid 1px #181818;
+    box-shadow: 0 0 20px #181818;
+    color: #000;
+}
+
+
+/* Responsivo/media query */
+
+@media (max-width:505px) {
+
+    /* Container */
+
+    #container {
+        width: 450px;
+        height: 500px;
+    }
+
+
+     /* botão */
+
+     button {
+        margin-left: 65px;
+    }
+}
+
+
+/* 455px */
+
+
+@media (max-width:455px) {
+
+    /* Container */
+
+    #container {
+        width: 420px;
+        height: 520px;
+    }
+
+
+    /* botão */
+
+    button {
+        margin-left: 50px;
+    }
+
+
+    /* h1 */
+
+    h1 {
+        font-size: 28px;
+    }
+}
+
+
+/* 426 */
+
+@media (max-width:426px) {
+
+    /* Container */
+
+    #container {
+        width: 400px;
+        height: 520px;
+    }
+
+
+    /* botão */
+
+    button {
+        margin-left: 40px;
+    }
+
+
+    /* h1 */
+
+    h1 {
+        font-size: 28px;
+    }
+}
+
+
+/* 404 */
+
+@media (max-width:404px) {
+
+    /* Container */
+
+    #container {
+        width: 380px;
+        height: 520px;
+    }
+
+
+    /* botão */
+
+    button {
+        margin-left: 32px;
+    }
+
+
+    /* h1 */
+
+    h1 {
+        font-size: 25px;
+    }
+}
+
+
+/* 384 */
+
+@media (max-width:384px) {
+
+    /* Container */
+
+    #container {
+        width: 350px;
+        height: 520px;
+    }
+
+
+    /* botão */
+
+    button {
+        margin-left: 32px;
+        width: 18rem;
+    }
+
+
+    /* h1 */
+
+    h1 {
+        font-size: 25px;
+    }
+}
+
+
+/* 355 */
+
+@media (max-width:355px) {
+
+    /* Container */
+
+    #container {
+        width: 325px;
+        height: 520px;
+    }
+
+
+    /* botão */
+
+    button {
+        margin-left: 32px;
+        width: 17rem;
+    }
+
+
+    /* h1 */
+
+    h1 {
+        font-size: 25px;
+    }
+}

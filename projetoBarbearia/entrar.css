@@ -1,0 +1,443 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    transition: .5s;
+    font-family: sans-serif,Arial, Helvetica, sans-serif;
+}
+
+
+body {
+    background: linear-gradient(
+        to top,
+        #ccc,
+        #060c21 100%
+    );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+/* Container */
+
+#container {
+    width: 500px;
+    height: 550px;
+    background-color: #eee;
+    border-radius: 30px;
+}
+
+
+/* Logo */
+
+img {
+
+    width: 100px;
+    margin-top: -162px;
+    margin-left: 25rem;
+    position: absolute;
+    border-radius: 20px;
+}
+
+
+/* h1/entrar */
+
+h1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 15vh;
+}
+    
+
+input {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 10rem;
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: solid 1px #000;
+    font-size: 18px;
+}
+
+
+label {
+    margin-top: 200px;
+    margin-left: 10rem;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+::placeholder {
+    color: #000;
+    font-size: 18px;
+}
+
+
+/* Esqueci minha senha */
+
+span {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2rem;
+    margin-top: 1.5rem;
+}
+
+
+a#cliqueAqui:hover {
+    color: #ccc;
+    text-decoration: underline;
+    margin-left: 10px;
+}
+
+
+/* Botão de entrar/ a */
+
+button {
+    width: 10rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-left: 11rem;
+    padding: 15px;
+    border-radius: 30px;
+    font-size: 17px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+a {
+    text-decoration: none;
+    color: #181818;
+    font-weight: bold;
+}
+
+
+button:hover {
+    border: solid 1px #181818;
+    box-shadow: 0 0 20px #181818;
+    color: #000;
+}
+
+
+/* icone de voltar */
+
+ion-icon {
+    position: relative;
+    color: #181818;
+    margin-top: 70px;
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+
+#voltar {
+    margin-top: -1.6rem;
+    margin-left: -22rem;
+    font-family: monospace;
+    font-size: 16px;
+}
+
+
+#voltar:hover {
+    text-decoration: underline;
+}
+
+
+/* Respnsividade */
+
+@media (max-width:512px) {
+
+    /* Container */
+
+    #container {
+        width: 480px;
+        height: 520px;
+    }
+
+
+    /* input */
+
+    input {
+        margin-left: 8.7rem;
+    }
+
+
+    /* input */
+
+    label {
+        margin-left: 8.7rem;
+    }
+
+
+    /* button */
+
+    button {
+        margin-left: 10rem;
+    }
+
+
+    /* Span de voltar */
+
+    #voltar {
+        margin-left: -20.5rem;
+    }
+
+}
+
+
+/* 494px */
+
+@media (max-width:494px) {
+
+    /* Container */
+
+    #container {
+        width: 460px;
+        height: 530px;
+    }
+
+
+    /* input */
+
+    input {
+        margin-left: 8.1rem;
+    }
+
+
+    /* input */
+
+    label {
+        margin-left: 8.1rem;
+    }
+
+
+    /* button */
+
+    button {
+        margin-left: 10rem;
+    }
+
+
+    /* Span de voltar */
+
+    #voltar {
+        margin-left: -19.5rem;
+    }
+}
+
+
+/* 476px */
+
+@media (max-width:476px) {
+
+    /* Container */
+
+    #container {
+        width: 440px;
+        height: 530px;
+    }
+
+
+    /* input */
+
+    input {
+        margin-left: 7.5rem;
+    }
+
+
+    /* input */
+
+    label {
+        margin-left: 7.5rem;
+    }
+
+
+    /* button */
+
+    button {
+        margin-left: 9rem;
+    }
+
+
+    /* Span de voltar */
+
+    #voltar {
+        margin-left: -18.5rem;
+    }
+}
+
+
+/* 452px */
+
+@media (max-width:452px) {
+
+    /* Container */
+
+    #container {
+        width: 400px;
+        height: 530px;
+    }
+
+
+    /* input */
+
+    input {
+        margin-left: 6.3rem;
+    }
+
+
+    /* input */
+
+    label {
+        margin-left: 6.3rem;
+    }
+
+
+    /* button */
+
+    button {
+        margin-left: 8rem;
+    }
+
+
+    /* Span de voltar */
+
+    #voltar {
+        margin-left: -15.8rem;
+    }
+}
+
+
+/* 413px */
+
+@media (max-width:413px) {
+
+    /* Container */
+
+    #container {
+        width: 370px;
+        height: 530px;
+    }
+
+
+    /* input */
+
+    input {
+        margin-left: 5.5rem;
+    }
+
+
+    /* input */
+
+    label {
+        margin-left: 5.5rem;
+    }
+
+
+    /* button */
+
+    button {
+        margin-left: 7rem;
+    }
+
+
+    /* Span de voltar */
+
+    #voltar {
+        margin-left: -13.5rem;
+    }
+}
+
+
+/* 382px */
+
+@media (max-width:382px) {
+
+    /* Container */
+
+    #container {
+        width: 340px;
+        height: 530px;
+    }
+
+
+    /* input */
+
+    input {
+        margin-left: 4.5rem;
+    }
+
+
+    /* input */
+
+    label {
+        margin-left: 4.5rem;
+    }
+
+
+    /* button */
+
+    button {
+        margin-left: 6rem;
+    }
+
+
+    /* Span de voltar */
+
+    #voltar {
+        margin-left: -12rem;
+    }
+}
+
+
+/* 354px */
+
+@media (max-width:354px) {
+
+    /* Container */
+
+    #container {
+        width: 330px;
+        height: 530px;
+    }
+
+
+    /* input */
+
+    input {
+        margin-left: 4rem;
+    }
+
+
+    /* input */
+
+    label {
+        margin-left: 4rem;
+    }
+
+
+    /* button */
+
+    button {
+        margin-left: 6rem;
+    }
+
+
+    /* Span de voltar */
+
+    #voltar {
+        margin-left: -11.5rem;
+    }
+}
