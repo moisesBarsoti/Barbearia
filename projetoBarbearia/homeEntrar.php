@@ -116,7 +116,7 @@
                     $_SESSION['senhaCliente'] = $usuario['senhaCliente'];
                     $_SESSION['emailCliente'] = $usuario['emailCliente'];
 
-                    header("Location: 404.html");
+                    header("Location: 40.html");
                 } else {
                     echo "Falha ao logar";
                 }
