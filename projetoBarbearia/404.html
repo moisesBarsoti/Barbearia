@@ -382,7 +382,7 @@ nav#menu_lateral:hover {
     color: #fff;
     font-size: 24px;
     cursor: pointer;
-    margin-left: 15px;
+    margin-left: 11px;
 }
 
 
@@ -1330,14 +1330,224 @@ h2#galeriaDeCorte {
 }
 
 
+/* As 3 imagens de cima */
+
+#imagem1 {
+    width: 200px;
+    height: 200px;
+    margin-left: 30rem;
+    margin-top: 11rem;
+    border-radius: 20px;
+}
+
+
+#imagem2 {
+    width: 200px;
+    height: 200px;
+    margin-left: 43rem;
+    margin-top: 11rem;
+    border-radius: 20px;
+}
+
+
+#imagem3 {
+    width: 200px;
+    height: 200px;
+    margin-left: 56rem;
+    margin-top: 11rem;
+    border-radius: 20px;
+}
+
+
+/* As duas imagens de baixo */
+
+#imagem4 {
+    width: 200px;
+    height: 200px;
+    margin-left: 48rem;
+    margin-top: 24rem;
+    border-radius: 20px;
+}
+
+
+#imagem5 {
+    width: 200px;
+    height: 200px;
+    margin-left: 35rem;
+    margin-top: 24rem;
+    border-radius: 20px;
+}
+
+
+/* Botão de ver mais */
+
+button {
+    position: absolute;
+    margin-left: 44.5rem;
+    margin-top: 38rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+    border: solid 1px #fff;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 18px;
+    color: #fff;
+}
+
+
+
+/* Container 3 */
+
 /* Container 3 */
 
 #container3 {
     position: absolute;
     background-color: #080b29;
+    width: 110%;
+    height: 1200px;
+    margin-top: 202.5rem;
+}
+
+/* form/Localização */
+
+#formLocalizacao {
+    margin-left: 33rem;
+    margin-top: 6rem;
+}
+
+
+/* form/barbeiro1 */
+
+#barbeiro1 {
+    position: absolute;
+    margin-top: 1rem;
+    margin-left: 11rem;
+}
+
+
+/* form/Barbeiro2 */
+
+#barbeiro2 {
+    position: absolute;
+    margin-top: 1rem;
+    margin-left: 55rem;
+}
+}
+
+
+/* 1100px */
+
+@media (max-width:1100px) {
+
+/* Imagem de fundo */
+
+img {
+    position: absolute;
     width: 119%;
-    height: 900px;
-    margin-top: 165rem;
+}
+
+
+ /* Menu */
+
+nav#menu_lateral {
+    width: 50px;
+    height: 110%;
+    padding: 40px 0 40px 5%;
+    position: fixed;
+    overflow: hidden;
+    margin-left: -65rem;
+}
+
+ion-icon#menu {
+    position: absolute;
+    color: #00bcd4;
+    font-size: 30px;
+    margin-left: -4rem;
+    margin-top: 6rem;
+}
+
+
+ul li.item_menu a .txt_link {
+    margin-left: 40px;
+    margin-top: 5rem;
+} 
+
+
+/* h1/Seja bem vindo */
+
+h1 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -30rem;
+    margin-left: 4rem;
+    font-family: monospace;
+    border-bottom: solid 2px #ccc;
+    color: #fff;
+    font-size: 40px;
+    width: 20ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: digitando 2s steps(18),
+    piscando .10s infinite step-end alternate;
+}
+
+
+/* h4/ A maior barbearia do estado de São Paulo */
+
+h4 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -23rem;
+    margin-left: 4rem;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    width: 37ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: digitando 2s steps(37),
+    piscando .10s infinite step-end alternate;
+}
+
+
+/* Login/ entrar e cadastrar */
+
+#login{
+    position: absolute;
+    font-size: 1.5rem;
+    margin-top: -47rem;
+    margin-left: 53rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* Container 2 */
+
+#container2 {
+    position: absolute;
+    background-color: #060c21;
+    width: 119%;
+    height: 700px;
+    margin-top: 84rem;
+}
+
+/* h2/Galeria de corte */
+
+h2#galeriaDeCorte {
+    color: #fff;
+    width: 400px;
+    margin-top: 5rem;
+    margin-left: 37rem;
+    font-size: 30px;
 }
 
 
@@ -1417,14 +1627,14 @@ button {
     position: absolute;
     background-color: #080b29;
     width: 110%;
-    height: 600px;
-    margin-top: 165rem;
+    height: 1200px;
+    margin-top: 202.5rem;
 }
 
 /* form/Localização */
 
 #formLocalizacao {
-    margin-left: 38rem;
+    margin-left: 33rem;
     margin-top: 6rem;
 }
 
@@ -1433,7 +1643,7 @@ button {
 
 #barbeiro1 {
     position: absolute;
-    margin-top: -25.1rem;
+    margin-top: 1rem;
     margin-left: 11rem;
 }
 
@@ -1442,8 +1652,8 @@ button {
 
 #barbeiro2 {
     position: absolute;
-    margin-top: -25.1rem;
-    margin-left: 65rem;
+    margin-top: 1rem;
+    margin-left: 55rem;
 }
 }
 
